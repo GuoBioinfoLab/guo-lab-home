@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" ng-app="lncRNASNP2">
+<head>
+
+    <meta charset="utf-8">
+    <title>lncRNASNP2</title>
+
+    <link rel="icon" href="/static/lncRNASNP2/img/lncRNASNP2-icon.ico">
+
+
+    <link rel="stylesheet" href="/static/lncRNASNP2/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/lncRNASNP2/lib/bootstrap-slider/css/bootstrap-slider.css">
+    <link rel="stylesheet" href="/static/lncRNASNP2/css/main.css">
+
+
+    <script src="/static/lncRNASNP2/lib/angular/angular.js"></script>
+    <script src="/static/lncRNASNP2/lib/angular/angular-route.js"></script>
+    <script src="/static/lncRNASNP2/lib/angular/angular-resource.js"></script>
+    <script src="/static/lncRNASNP2/lib/angular-pageslide-directive/angular-pageslide-directive.js"></script>
+
+    <script src="/static/lncRNASNP2/js/app.js"></script>
+    <script src="/static/lncRNASNP2/js/home.controller.js"></script>
+    <script src="/static/lncRNASNP2/js/document.controller.js"></script>
+    <script src="/static/lncRNASNP2/js/contact.controller.js"></script>
+    <script src="/static/lncRNASNP2/js/snp.controller.js"></script>
+    <script src="/static/lncRNASNP2/js/tcga_mutation.controller.js"></script>
+    <script src="/static/lncRNASNP2/js/cosmic.controller.js"></script>
+
+
+    <script src="/static/lncRNASNP2/js/test.js"></script>
+
+    <script src="/static/lncRNASNP2/lib/jquery/jquery-3.1.1.min.js"></script>
+    <script src="/static/lncRNASNP2/lib/bootstrap/bootstrap.js"></script>
+    <script src="/static/lncRNASNP2/lib/ui-bootstrap/ui-bootstrap-tpls-2.4.0.js"></script>
+    <script src="/static/lncRNASNP2/lib/bootstrap-slider/bootstrap-slider.js"></script>
+    <script src="/static/lncRNASNP2/lib/bootstrap-slider/angular-bootstrap-slider.js"></script>
+
+</head>
+<body>
+
+<div ng-include="'/static/lncRNASNP2/partials/navigation.html'"></div>
+
+<div class="container">
+    <div ng-view></div>
+</div>
+
+<div ng-include="'/static/lncRNASNP2/partials/footer.html'"></div>
+
+
+</body>
+</html>

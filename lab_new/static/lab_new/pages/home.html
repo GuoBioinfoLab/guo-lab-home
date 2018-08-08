@@ -1,0 +1,72 @@
+<div class="row">
+    <div class="col-lg-4">
+        <div class="well" style="background-color: white">
+            <h4 style="text-align: center;color:#FDB933;font-weight: bold">Welcome</h4>
+            <hr class="divider">
+            <p>
+                Welcome to Dr. An-Yuan Guo's Lab at the Huazhong University of Science and Technology. 
+                <span>
+                    <a href="http://bioinfo.life.hust.edu.cn/bbs">
+                        <img src="/static/lab_new/graph/bbs.png" style="width: 32px;height: 32px">
+                    </a>
+                </span> 
+                <span>
+                    <a href="https://github.com/GuoBioinfoLab" target="_blank">
+                        <img src="/static/lab_new/graph/github.png" style="width: 32px;height: 32px">
+                    </span>
+                </a>
+            </p>
+            <p>Our research interests mainly focus on:</p>
+            <p><span class="glyphicon glyphicon-send"></span> <strong>TF and miRNA co-regulation</strong> in complex diseases;</p>
+            <p><span class="glyphicon glyphicon-send"></span> Lsarge-scale data integration, <strong>database</strong> construction, and <strong>tools</strong> to addressing bioinfomatics problems;</p>
+            <p><span class="glyphicon glyphicon-send"></span> <strong>Cancer genomics</strong>: take advantage of the data from genome projects and high-throughput technology to investigate biological mechanisms of cancer development, key regulators in cancer as well as find biomarkers and drug targets in specific cancer.</p>
+            <p><span class="glyphicon glyphicon-send"></span> <strong>Cancer genomics</strong>: take advantage of the data from genome projects and high-throughput technology to investigate biological mechanisms of cancer development, key regulators in cancer as well as find biomarkers and drug targets in specific cancer.</p>
+
+        </div>
+        <div class="well" style="background-color: white;">
+            <h4 style="text-align: center;color:#FDB933;font-weight: bold">Lab News</h4>
+            <hr class="divider">
+            <p>2018-6: Luo and Zhang's paper entitled "Differential Co-expression and Regulatory Network Analysis Uncover the Relapse Factor and Mechanism of T Cell Acute Leukemia" has been accepted by <b><i>Molecular Therapy Nucleic Acids</i></b>. <a href="https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(18)30100-8" target=_blank>Online</a> </p>
+            <p>2018-5: Liu's paper entitled "GSCALite: A Web Server for Gene Set Cancer Analysis" has been accepted by <i><b>Bioinformatics</b></i>. <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty411/5001392" target=_blank>Online</a> </p>
+            <p>2018-4: Hu's paper entitled "The ASH1-miR-375-YWHAZ Signaling Axis Regulates Tumor Properties in Hepatocellular Carcinoma" has been published on <b><i>Molecular Therapy Nucleic Acids</i></b>. <a href="https://www.sciencedirect.com/science/article/pii/S2162253118300519" target=_blank>Online</a> </p>
+             <p>2018-3: Luo's paper entitled "Leukemia cell-derived microvesicles induce T cell exhaustion via miRNA delivery" has been accepted by <i><b>OncoImmunology</b></i>. <a href="https://www.tandfonline.com/doi/full/10.1080/2162402X.2018.1448330?scroll=top&needAccess=true&" target=_blank>Online</a></p>
+            <a href="#!/news" target="_blank">View more</a>
+        </div>
+    </div>
+    <div class="col-lg-8 well" style="background-color:white">
+        <h4 style="text-align: center;color:#FDB933;font-weight: bold">Gallery</h4>
+        <hr class="divider">
+        <div class="row">
+            <div class="col-lg-6" style="text-align:center">
+                <a href="http://bioinfo.life.hust.edu.cn/web/GSCALite/" target="_blank"><img src="/static/lab_new/graph/gallery_gscalite.png" style="width: 90%;height=340px"></a>
+            </div>
+            <div class="col-lg-6" style="text-align:center">
+                <img src="/static/lab_new/graph/gallery_catt.png" style="width: 90%;height=340px">
+            </div>
+        </div>
+        <h4 style="text-align: center;color:#FDB933;font-weight: bold">Resources</h4>
+        <hr class="divider">
+        <div class="row">
+            <div ng-repeat="item in db_list" style="vertical-align: top;display: inline-block;padding: 0;margin-left: 10px;text-align: center">
+                <div class="thumbnail" style="width: 140px;height: 80px;margin-left: 7px;text-align: center">
+                    <a href="{$ item.address $}" target="_blank"><span class="cursor-hand" data-toggle="modal"><img src="/static/lab_new/graph/{$ item.figure $}.jpg" class="img-rounded" style="width: 130px;height: 50px;"></span>
+                    <div class="caption" >
+                        <p style="font-size: small;text-align: center;color:darkblue;font-weight: bold">{$ item.dbname $}</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row" >
+            <table style="margin-left:15px">
+                <tr>
+                    <td><a href="https://github.com/GuoBioinfoLab" target="_blank"><img src="/static/lab_new/graph/github.png" style="width: 32px;height: 32px"></td></td>
+                        <td style="width:50%"><a href="https://github.com/GuoBioinfoLab" target="_blank"><p>Github</p></a></td>
+                    <td><a href="http://bioinfo.life.hust.edu.cn/bbs"><img src="/static/lab_new/graph/bbs.png" style="width: 32px;height: 32px"></a></td>
+                        <td><a href="href="https://github.com/GuoBioinfoLab""><p>BBS</p></a></td></a>
+                </tr>
+            </table>
+        </div> -->
+<br>
+<br>
+    </div>
+</div>
